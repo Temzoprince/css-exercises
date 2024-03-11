@@ -42,9 +42,6 @@ body {
 .header {
   font-size: large;
   font-weight: bold;
-}
-
-.top-line {
   display: flex;
   justify-content: space-between;
   align-items: center;
