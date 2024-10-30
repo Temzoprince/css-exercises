@@ -29,4 +29,23 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+li {
+  animation-duration: 1s;
+  animation-name: expand-items;
+  animation-iteration-count: 1;
+}
+
+@keyframes expand-items {
+  from {
+    height: 0px;
+  }
+
+  60% {
+    height: 55px;
+  }
+
+  to {
+    height: 50px;
+  }
+}
 
