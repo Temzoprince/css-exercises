@@ -27,25 +27,24 @@ ul.dropdown-menu li:hover {
 
 .visible {
   display: block;
-}
 
-li {
   animation-duration: 1s;
   animation-name: expand-items;
   animation-iteration-count: 1;
+  transform-origin: top;
 }
 
 @keyframes expand-items {
   from {
-    height: 0px;
+    transform: scaleY(0);
   }
 
   60% {
-    height: 55px;
+    transform: scaleY(1.1);
   }
 
   to {
-    height: 50px;
+    transform: scaleY(1);
   }
 }
 
